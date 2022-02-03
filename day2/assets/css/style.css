@@ -1,0 +1,150 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(-180deg, white, white, white, #434379, #101419, #101419, #101419, #101419, black, black);
+    /* background: linear-gradient(-180deg, white 10%, #434379, #101419 30%, black); */
+    height: fit-content;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.nav-item {
+    font-size: 20px;
+}
+
+.active {
+    font-weight: 500;
+    color: #060684 !important;
+}
+
+.custom-nav:hover {
+    font-weight: 500;
+    color: #060684 !important;
+}
+
+.navbar .dropdown-toggle::after{ color: #060684; }
+
+.profile img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+
+.home-motto {
+    font-size: 40px;
+    font-weight: 500;
+    padding: 50px;
+}
+
+.home-ilustration img {
+    border-radius: 5%;
+    width: 100%;
+}
+
+
+.card-title {
+    font-size: 40px;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 54px;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.card-service {
+    background-color: #0A0F16;
+    /* height: 334px; */
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    /* overflow: auto; */
+}
+
+.card-label {
+    color: white;
+    margin-top: 20px;
+}
+
+.card-desc {
+    color: white;
+    font-weight: 200;
+    margin-top: 20px;
+    
+}
+
+
+.title-partner {
+    font-size: 40px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 54px;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.logo-partner {
+    width: 150px;
+    filter: grayscale(100%) ;
+}
+
+.logo-invert {
+    filter: invert(100%) grayscale(100%);
+}
+
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.address {
+    margin-top: 10px;
+    color: white;
+} 
+
+.service {
+    color: white;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+.service-list {
+    color: whitesmoke;
+}
+
+.service-list:hover {
+    color: skyblue;
+}
+
+.copyright {
+    padding: 40px;
+    color: white;
+    border-top: 1px white solid;
+}
+
+@media screen and (max-width : 768px) {
+    .service {
+        margin-top: 20px;
+    }
+
+    
+}
